@@ -1,0 +1,7 @@
+H:\university\NET (C#)\projects\01\01\01\obj\Debug\01.csprojAssemblyReference.cache
+H:\university\NET (C#)\projects\01\01\01\obj\Debug\01.csproj.CoreCompileInputs.cache
+H:\university\NET (C#)\projects\01\01\01\bin\Debug\01.exe.config
+H:\university\NET (C#)\projects\01\01\01\bin\Debug\01.exe
+H:\university\NET (C#)\projects\01\01\01\bin\Debug\01.pdb
+H:\university\NET (C#)\projects\01\01\01\obj\Debug\01.exe
+H:\university\NET (C#)\projects\01\01\01\obj\Debug\01.pdb
