@@ -1,0 +1,21 @@
+*{margin: 0; padding: 0;}
+body{
+	background-image: url(../image/bg1.jpg);
+}
+img{
+	width: 100%;
+}
+.item_image{
+	border: 2px dotted blue;
+	padding: 2%;
+}
+.item_image img{
+	height: 416px;
+}
+.item_image .link{
+	margin-top: 2%;
+}
+.item_image .link .btn{
+	border: 2px solid green;
+	color: green;
+}

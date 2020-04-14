@@ -1,0 +1,5 @@
+USE DB_DATN
+
+GO
+
+DELETE FROM tbl_sinhvien WHERE masv = 1221000125

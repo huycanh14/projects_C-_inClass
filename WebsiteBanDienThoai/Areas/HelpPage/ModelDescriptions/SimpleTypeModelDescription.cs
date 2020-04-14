@@ -1,0 +1,6 @@
+namespace WebsiteBanDienThoai.Areas.HelpPage.ModelDescriptions
+{
+    public class SimpleTypeModelDescription : ModelDescription
+    {
+    }
+}

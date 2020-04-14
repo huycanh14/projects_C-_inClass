@@ -1,0 +1,13 @@
+﻿div{
+    padding: 7px 0px;
+}
+body {
+    font-family: Tahoma;
+    font-size: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

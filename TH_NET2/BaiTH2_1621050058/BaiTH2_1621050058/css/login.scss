@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+body,{
+	background-image: url('../image/body.jpg');
+}
+#form_login{
+	margin: 9% 0% 2% 16%;
+	background-color: #ffff;
+	border: 1px solid #F0F0F0;
+	padding: 0px;
+	header{
+		.container{
+			background-color: #243561;
+			padding: 2% 0%;
+			color: #ffff;
+			text-transform: uppercase;
+			font-weight: 800;
+			font-size: 20px;
+		}
+	}
+	#content{
+		padding: 2% 0% 1% 0%;
+		img{
+			width: 100%;
+		}
+		.title{
+			font-family: 'Taprom', cursive;
+			font-size: 32px;
+			font-weight: 700;
+		}
+		.zoomIn{
+			animation-duration: 5s;
+		}
+	}
+	#carouselExampleIndicators{
+		li{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+		}
+	}
+	footer{
+		padding: 2% 0%;
+		.container{
+			background-color: #C6DAF2;
+			.chuto{
+				text-transform: uppercase;
+				color: #1669AF;
+				font-weight: 600;
+				font-size: 30px;
+			}
+			.chunho{
+				color: #1669AF;
+			}
+			.noidung{
+				padding-top: 3%;
+				color: #2E3D5F;
+				text-transform: uppercase;
+				font-weight: 500;
+				font-size: 20px;
+			}
+		}
+	}
+}

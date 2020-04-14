@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body, html {
+  background-image: url("../image/topbg.png");
+  background-size: 100% 100%; }
+
+header .banner {
+  padding-top: 21%;
+  background-image: url("../image/bg_header.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  header .banner ul {
+    list-style-type: none;
+    padding-left: 6%; }
+    header .banner ul li {
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 2%; }
+
+content ul {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 6%;
+  background-color: #fff; }
+  content ul span {
+    position: absolute;
+    z-index: 2; }
+  content ul .tieude {
+    position: relative;
+    height: 53px;
+    background-image: url("../image/colleft_header_center.gif");
+    text-transform: uppercase; }
+  content ul hr {
+    margin-left: 11%;
+    margin-right: 11%;
+    border-top: 2px dashed #E2E2E2; }
+  content ul .list-group {
+    padding-left: 12%; }
+content .content {
+  background-color: #fff; }
+  content .content .title {
+    background-image: url("../image/bg_header_content_center.gif"); }
+    content .content .title .tieude {
+      font-size: 25px;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: #DE4260; }
+
+footer {
+  padding: 2% 0% 3% 0%;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700; }
+  footer .container .noidung {
+    background-image: url("../image/bg_footer.gif");
+    padding: 1% 0%; }
+
+/*# sourceMappingURL=tuyendung.css.map */

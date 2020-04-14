@@ -1,0 +1,13 @@
+body{
+	background-image: url(../image/vietnamquehuongtoi.jpg);
+	background-size: cover;
+}
+.content{
+	color: red;
+	font-weight: 500;
+	padding-top: 18%;
+	font-size: 27px;
+}
+b{
+	font-size: 30px;
+}

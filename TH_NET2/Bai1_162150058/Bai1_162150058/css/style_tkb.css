@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  font-size: 8pt; }
+  .header b {
+    color: Teal; }
+  .header i {
+    color: Gray; }
+
+.content table {
+  width: 1000px; }
+.content thead {
+  font-size: 8pt;
+  color: #ffff; }
+  .content thead .thu {
+    color: White;
+    background-color: #6699CC;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 11px;
+    width: 100px;
+    text-align: center; }
+  .content thead .tiet {
+    height: 18px;
+    width: 50px; }
+.content tbody .tiet {
+  color: White;
+  background-color: #6699cc;
+  border-color: Gray;
+  border-width: 1px;
+  border-style: solid;
+  height: 22px;
+  width: 50px;
+  font-size: 8pt;
+  font-family: Tahoma;
+  text-align: center;
+  font-weight: bold; }
+.content tbody td {
+  border-color: Gray;
+  border-width: 1px;
+  border-style: solid;
+  height: 22px;
+  width: 110px;
+  font-family: arial;
+  font-size: 8pt; }
+.content tbody .monhoc {
+  background-color: Beige;
+  border-color: Gray;
+  border-width: 1px;
+  border-style: solid;
+  padding-right: 2%; }
+.content tbody i {
+  font-style: italic;
+  color: gray;
+  font-weight: 700; }
+.content tbody span {
+  color: Teal;
+  font-weight: 700; }
+
+/*# sourceMappingURL=style_tkb.css.map */

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-image: url("../image/body.jpg"); }
+
+#form_login {
+  margin: 9% 0% 2% 16%;
+  background-color: #ffff;
+  border: 1px solid #F0F0F0;
+  padding: 0px; }
+  #form_login header .container {
+    background-color: #243561;
+    padding: 2% 0%;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px; }
+  #form_login #content {
+    padding: 2% 0% 1% 0%; }
+    #form_login #content img {
+      width: 100%; }
+    #form_login #content .title {
+      font-family: 'Taprom', cursive;
+      font-size: 32px;
+      font-weight: 700; }
+    #form_login #content .zoomIn {
+      animation-duration: 5s; }
+  #form_login #carouselExampleIndicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; }
+  #form_login footer {
+    padding: 2% 0%; }
+    #form_login footer .container {
+      background-color: #C6DAF2; }
+      #form_login footer .container .chuto {
+        text-transform: uppercase;
+        color: #1669AF;
+        font-weight: 600;
+        font-size: 30px; }
+      #form_login footer .container .chunho {
+        color: #1669AF; }
+      #form_login footer .container .noidung {
+        padding-top: 3%;
+        color: #2E3D5F;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 20px; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,25 @@
+﻿body {
+    /*background-image: url('../image/bg_if.jpg');*/
+    background-image: url('../image/bg3.jpg');
+}
+*{margin: 0; padding: 0;}
+
+.title{
+    text-transform: uppercase;
+    background: #000000;
+    color: #ffffff;
+}
+.content img {
+    width: 100%;
+    border: 1px solid #000000;
+}
+.tieude {
+    font-size: x-large;
+    font-weight: bolder;
+}
+.content .col-6 {
+    background-image: url('../image/bg_if.jpg');
+    background-size: cover;
+    border: 1px solid #5050FC;
+    margin-top: 6%;
+}

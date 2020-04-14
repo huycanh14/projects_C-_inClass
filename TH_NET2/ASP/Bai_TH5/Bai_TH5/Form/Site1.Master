@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Bai_TH5.Form.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="../css/w3.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" >
+    <link href="../css/animate.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header class="badge-dark pt-2 pb-2">
+            <div class="row container-fluid">
+                <div class="col-xl-2">
+                    <button type="button" id="showMenu" onclick="toggle_menu()" class="badge-dark"><i class="fa fa-bars"></i> Menu</button>
+                    <%--<button type="button" id="" class="badge-dark"><i class="fa fa-bars"></i> Menu</button>--%>
+                </div>
+                <div class="col-xl-10 text-xl-right text-uppercase font-weight-bold">Hệ thống quản lý sinh viên</div>
+            </div>
+        </header>
+        <div class="content">
+            <div class="row clearfix">
+                <%-- Menu --%>
+                <div class="col-2 d-block animated bounceInLeft delay-2" id="menu">
+                    <div class="row">
+                        <div class="col-xl-4">
+                            <img src="https://img1.pngdownload.id/20180319/row/kisspng-computer-icons-google-account-user-profile-iconfin-png-icons-download-profile-5ab0301d8907a6.3404305715214960935613.jpg" class=" img-circle w3-circle" alt="Alternate Text" width="100%"/>
+                        </div>
+                        <div class="col-xl-8">
+                            <div class="text-xl-center"> Chào mừng, <span class="font-weight-bold">admin</span> </div>
+                            <div class="text-xl-center">
+                                <a href="#"><i class="fas fa-envelope-open-text"></i></a> 
+                                <a href="#"><i class="fas fa-download"></i></a>
+                                <a href="#"><i class="fas fa-cog"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 text-xl-center text-uppercase badge-success pt-2 pb-2">-*- Danh mục chức năng -*-</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 p-0">
+                            <ul class="list-group border-0">
+                              <li class="list-group-item active rounded-0"><a href="home.aspx" class="text-decoration-none w3-hover-none text-white"><i class="fas fa-home"></i> Trang chủ</li></a>
+                              <li class="list-group-item"><a href="frm_sinhvienview.aspx" class="text-body text-decoration-none"><i class="fas fa-graduation-cap"></i> Hồ sơ sinh viên</a></li>
+                              <li class="list-group-item"><a href="frm_giangvienview.aspx" class="text-body text-decoration-none"><i class="fas fa-users"></i> Hồ sơ giảng viên</a></li>
+                              <li class="list-group-item"><a href="frm_doanview.aspx" class="text-body text-decoration-none"><i class="fas fa-chart-pie"></i> Hồ sơ dự án</a></li>
+                              <li class="list-group-item"><i class="fas fa-lock"></i> Quản lý tài khoản</li>
+                              <li class="list-group-item"><i class="fas fa-plus-circle"></i> Quản trị Danh mục</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <%-- End Menu --%>
+                <%-- Contetn --%>
+                <div class="col-10" id="content">
+                    <div class="container-fluid">
+                        <div class=" row">
+                            <div class="col-xl-12">
+                                <div class="container-fluid mt-4 mb-2">
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <%-- End Content --%>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row" style="background:#C6D9F1;">
+                <div class="col-xl-2 text-xl-center w3-text-blue">
+                    <span class="font-weight-bold text-uppercase" style="letter-spacing:9px; font-size:20px;">HUMG</span> <br /> www.humg.edu.vn
+                </div>
+                <div class="col-xl-10 text-left text-body">
+                    <span class="text-uppercase text-body">bản quyền thuộc về khoa công nghệ thông tin - đại học Mỏ địa chất</span><br />
+                    Địa chỉ: Tầng 7 nhà C12 số 10 Phố Viên - Phường Đức Thắng - Bắc Từ Liêm - Hà Nội
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>

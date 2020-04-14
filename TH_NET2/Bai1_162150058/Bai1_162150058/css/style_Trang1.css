@@ -1,0 +1,26 @@
+body{
+	background-image: url(../image/hochiminh.jpg);			
+	background-size: cover;
+}
+.content{
+	width: 1000px;
+	padding-left: 300px;
+	padding-top: 5%;
+}
+.title{
+	font-size: 20px;
+	font-weight: 700;
+	color: red;
+}
+.tacgia{
+	font-size: 20px;
+	color: blue;
+	font-weight: 600;
+}
+.khoi1, .khoi2, .khoi3{
+	font-size: 20px;
+	font-weight: 500;
+}
+b{
+	font-size: 30px;
+}
